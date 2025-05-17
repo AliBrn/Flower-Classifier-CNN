@@ -158,3 +158,25 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+# Jupyter Notebook checkpoint klasörü
+.ipynb_checkpoints/
+
+# Sanal ortam klasörü
+flowers_env/
+
+# VS Code sanal belgeleri veya başka sanal dokümanlar
+.virtual_documents/
+
+# resim klasörleri (isteğe bağlı)
+upload/
+
+# Hiperparametre denemeleri klasörü
+tuner_dir/
+
+# Jupyter Notebook dosyaları (ipynb) yüklenmesin
+*.ipynb
+
+# Tüm ipynb dosyalarını ignore et ama sadece şu dosyayı ekle
+!Flower_recog_Model.ipynb
